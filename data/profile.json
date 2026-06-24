@@ -1,9 +1,9 @@
 {
-    "name": "Aminuddin Rizal (林安明)- Lecturer Computer and Electronic Engineering",
-    "description": "Dedicated and dynamic Computer Engineer with a passion for teaching and sharing knowledge. Possessing extensive experience in both industry and academia, with a solid foundation in computer engineering principles and technologies. Proven track record of delivering engaging lectures and fostering an interactive learning environment conducive to student success. Adept at integrating real-world examples and practical applications into curriculum to enhance student understanding. Committed to staying abreast of emerging trends in computer engineering and incorporating them into instructional materials. Seeking to leverage expertise in computer engineering and passion for education to inspire and empower the next generation of engineers.",
+    "name": "Abdul Rahman Al Haidar - Electronic Engineering",
+    "description": "Lulusan Teknik Elektronika (D3) yang dedikatif dan berorientasi pada detail, dengan landasan kuat dalam analisis rangkaian, wiring kelistrikan profesional, serta pemrograman perangkat keras (hardware programming). Memiliki pengalaman praktis dalam merancang dan mengatasi masalah (troubleshooting) sistem elektronik sekaligus mengintegrasikan perangkat lunak secara efektif untuk meningkatkan fungsi perangkat keras. Sangat adaptif dan berpikiran maju, dengan fokus karier utama pada pengembangan keahlian pemrograman secara berkelanjutan dan selalu mengikuti perkembangan tren teknologi pemrograman terbaru. Bertekad untuk memanfaatkan kombinasi keahlian elektronika dan pemrograman ini untuk berkontribusi pada proyek teknis yang inovatif di lingkungan teknik yang dinamis.",
     "profileImage": "images/profile.jpg",
-    "email": "aminuddin.rizal@polines.ac.id",
-    "phone": "+62 (851) 324-78890",
+    "email": "haidaarr.205@gmail.com",
+    "phone": "+62 (817) 7909-8610 ",
     "socialMedia": [
         {
             "platform": "LinkedIn",
@@ -24,14 +24,13 @@
 			"icon": "fas fa-file-pdf"
 	},
     "skills": [
-        {"name": "Biomedical Engineering", "icon": "fas fa-heart-pulse", "level": 90},
         {"name": "Front-end IC Design", "icon": "fas fa-microchip", "level": 70},
-        {"name": "Internet of Things", "icon": "fas fa-wifi", "level": 90},
-        {"name": "Hardware Design", "icon": "fas fa-desktop", "level": 90},
-	{"name": "Hardware Programming", "icon": "fas fa-c", "level": 90},
+        {"name": "Internet of Things", "icon": "fas fa-wifi", "level": 70},
+        {"name": "Hardware Design", "icon": "fas fa-desktop", "level": 70},
+	{"name": "Hardware Programming", "icon": "fas fa-c", "level": 80},
         {"name": "Web Programming", "icon": "fab fa-js", "level": 85},
-	{"name": "Project Management", "icon": "fas fa-list-check", "level": 95},
-	{"name": "Academic Writing", "icon": "fas fa-pen", "level": 90},
-	{"name": "Foreign Languages", "icon": "fas fa-language", "level": 85}
+	{"name": "Project Management", "icon": "fas fa-list-check", "level": 85},
+	{"name": "Academic Writing", "icon": "fas fa-pen", "level": 75},
+	{"name": "Foreign Languages", "icon": "fas fa-language", "level": 75}
     ]
 }
