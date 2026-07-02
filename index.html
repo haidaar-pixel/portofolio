@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="sidebar-nav">
+            <span class="nav-mark">PORTFOLIO</span>
+            <ul>
+                <li>
+                    <a href="#profile" data-tooltip="Profile">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#education" data-tooltip="Education">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#experience" data-tooltip="Experience">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Profile Section -->
+        <section id="profile" class="section">
+            <div class="container">
+                <div class="profile-content">
+                    <div class="profile-image-container">
+                        <div class="photo-frame">
+                            <img id="profile-pic" src="" alt="Profile Picture" class="profile-image">
+                        </div>
+                        <div class="profile-contact">
+                            <div class="social-links" id="social-links"></div>
+                            <a href="#" id="cv-download" class="cv-download-btn" title="Download CV">
+                                <i class="fas fa-arrow-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <div class="eyebrow">Portfolio</div>
+                        <h1 id="profile-name"></h1>
+                        <p id="profile-description"></p>
+                        <div class="spec-sheet">
+                            <div><i class="fas fa-envelope"></i><span id="profile-email"></span></div>
+                            <div><i class="fas fa-phone"></i><span id="profile-phone"></span></div>
+                        </div>
+
+                        <div class="skills-container" id="skills-container">
+                            <div class="section-label">Skills</div>
+                            <div class="skills-grid" id="skills-grid"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section timeline-section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-list timeline" id="education-list"></div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section timeline-section">
+            <div class="container">
+                <h2>Internship Experience</h2>
+                <div class="experience-list timeline" id="experience-list"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Abdul Rahman Al Haidar Portfolio</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
